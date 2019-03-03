@@ -10,7 +10,7 @@ function setup(){
 
   ellipseMode(CENTER);
   
-  for (var i = 0; i < numberRings ; i++) {
+  for (var i = 0; i < numberRings ; i=i+10) {
     var currentDiameter = maxDiameter * (numberRings-i)/100;
     
   	
