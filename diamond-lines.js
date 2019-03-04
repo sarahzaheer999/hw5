@@ -4,9 +4,13 @@ function setup() {
 
 function draw() {
   background(220);
-  for (var i = 20; i <= 390; i = i - 10) {
-    line(20, i, 400, i);
-  }
+  for (var i = 1; i < 200, i += 10) {
+    var startX = 200 - i;
+    var endX = 200 + i;
+    var startY = i;
+    var endY = i;
+    line(startX, startY, endX, endY);
+
 }
 
 
